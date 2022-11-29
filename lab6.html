@@ -9,36 +9,40 @@
 
             let x = 33;
             let s ='яблоки';
-            let if = 17;
+            //let if = 17;
             console.log('x=', x, 's=', s);
         </script>
+        <script src="lab6.js"></script>
     </head>
     <body>
         <div class="header">
-            Дорогин Виктор
+            <div id="student">Дорогин Виктор</div>
+        </div class="language">
+            <input type="button" value="ru" onclick="setRussian()">
+            <input type="button" value="en" onclick="setEnglish()">
         </div>
 
         <div class="content">
             <form>
                 <div>
                     <div>
-                        <span>Виктор</span>: <input type="text">
+                        <span id="your-name">Ваше имя</span>: <input id='input-name' type="text" placeholder="Введитея имя">
                     </div>
                     <div>
-                        <span>Дорогин</span>: <input type="text">
+                        <span id="your-surname">Ваша фамилия</span>: <input id='input-surname' type="text" placeholder="введите фамилию">
                     </div>    
                     <div>
-                        <span>19</span>: <input type="number">
+                        <span id="your-age">Ваш возраст</span>: <input id='input-age' type="number" placeholder="введите возраст">
                     </div>
                     <div>
-                        <input type="button" value="ок">
-                        <input type="reset" value="сброс">
+                        <input type="button" value="ок" id="OK-button">
+                        <input type="reset" value="сброс" id="RESET-button">
                     </div>
                 </div>
             </form>
         </div>
 
-        <div class="footer">
+        <div class="footer" id="footer">
             Факультет бизнеса, ФБИ-03, 3 курс, 2022
         </div>
     </body>
