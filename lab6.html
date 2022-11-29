@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Дорогин Виктор. ФБИ-03. Лабораторная работа 6</title>
         <link rel="stylesheet" href="lab6.css" type="text/css">
         <script>
@@ -14,9 +16,10 @@
         </script>
         <script src="lab6.js"></script>
     </head>
+    
     <body>
         <div class="header">
-            <div id="student">Дорогин Виктор</div>
+            <div id="student" onclick="shawmassage()">Дорогин Виктор</div>
         </div class="language">
             <input type="button" value="ru" onclick="setRussian()">
             <input type="button" value="en" onclick="setEnglish()">
@@ -24,7 +27,7 @@
 
         <div class="content">
             <form>
-                <div>
+                <div id="user-data">
                     <div>
                         <span id="your-name">Ваше имя</span>: <input id='input-name' type="text" placeholder="Введитея имя">
                     </div>
@@ -35,14 +38,14 @@
                         <span id="your-age">Ваш возраст</span>: <input id='input-age' type="number" placeholder="введите возраст">
                     </div>
                     <div>
-                        <input type="button" value="ок" id="OK-button">
+                        <input type="button" value="ок" id="OK-button" onclick="showAlert()">
                         <input type="reset" value="сброс" id="RESET-button">
                     </div>
                 </div>
             </form>
         </div>
 
-        <div class="footer" id="footer">
+        <div class="footer" id="footer" onclick="shawmassage2()">
             Факультет бизнеса, ФБИ-03, 3 курс, 2022
         </div>
     </body>
