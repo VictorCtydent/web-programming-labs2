@@ -6,8 +6,7 @@
         <link rel="stylesheet" href="lab7.css" type="text/css">
         <script src="lab7.js"></script>
     </head>
-    
-    <body>
+    <body onload="makeStairs()">
         <div class="header">
             Дорогин Виктор
         </div>
@@ -32,12 +31,13 @@
                     <div>
                         <span>Ваш пол</span>:
                         <select id="sex">
-                            <option value="female">мужской</option>
+                            <option value="male">мужской</option>
                             <option value="female">женский</option>
                         </select>
                     </div>
                 </div>
             </form>
+            <div id="stairs"></div>
         </div>
 
         <div class="footer" id="footer" onclick="shawmassage2()">
