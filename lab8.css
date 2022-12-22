@@ -39,12 +39,13 @@ body {
     text-align: center
 }
 .header {
-    color: rgb(250, 242, 242);  
-    font-size: 14px;
-    font-style: italic;
-    background-color: #333;
-    text-align: left;
-    height: 30px;
-    line-height: 30px;
-    padding-right: 20px;
+    color: rgb(243, 12, 12);
+    background: rgb(115, 117, 241);
+    font-size: 18px;
+    height: 80px;
+    line-height: 83px;
+    padding-left: 30px;
+    }
+#time {
+    margin-left: 100px;
 }
