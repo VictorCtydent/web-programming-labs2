@@ -41,11 +41,15 @@ body {
 .header {
     color: rgb(243, 12, 12);
     background: rgb(115, 117, 241);
-    font-size: 18px;
-    height: 80px;
+    font-size: 28px;
+    height: 100px;
     line-height: 83px;
     padding-left: 30px;
     }
 #time {
-    margin-left: 100px;
+    margin-left: 100;
+    line-height: 10px;
+    padding-left: 1730px;
+    font-size: 25px;
+    text-align: center
 }
