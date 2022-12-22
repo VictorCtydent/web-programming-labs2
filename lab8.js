@@ -32,5 +32,5 @@ function showNewDate(params) {
     let NewDate = birthday.getTime() + days*24*60*60*1000;
     NewDate = new Date(NewDate);
 
-    resultdays.innerHTML = 'Круглая дата:  ' + NewDate;
+    resultdays.innerHTML = 'Круглая дата:  ' + NewDate.toLocaleDateString("ru-RU");
 }
