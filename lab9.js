@@ -4,3 +4,9 @@ function clickMe(button) {
     else 
     button.innerHTML = 'Щелчок';
 }
+function student(button) {
+    if(button.innerHTML == 'Дорогин')
+        button.innerHTML = 'Виктор';
+    else
+    button.innerHTML = 'Дорогин'
+}
